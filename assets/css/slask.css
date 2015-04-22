@@ -1,0 +1,42 @@
+/*
+.vertical-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+*/
+/*
+.custom-sidenav-class {
+  @include side-nav(
+    // Border color of divider
+    $divider-color: '#ccc',
+      // Font size of nav items
+    $font-size:1.2em,
+      // Color of navigation links
+    $link-color:'#ccc',
+      // Color of navigation links on hover
+    $link-color-hover: '#444'
+  );
+}   */
+/*
+.placeholder200 {
+	height: 200px;
+	width: 150px;
+	@include placeholder;
+}
+
+.placeholder300 {
+	height: 200px;
+	width: 300px;
+
+	@include placeholder;
+}
+
+.placeholder400 {
+	height: 400px;
+	width: 400px;
+
+	@include placeholder;
+
+	display: block;	// overwrite mixin
+}   */

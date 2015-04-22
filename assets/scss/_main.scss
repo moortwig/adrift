@@ -1,0 +1,166 @@
+
+// ==================================================
+// DEBUGGING ========================================
+div {
+  @if $debugging {
+    outline: 2px solid black;
+  }
+}
+// ==================================================
+// GENERAL CONTENT ==================================
+.main {
+  // height: 100%;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.nav-menu {
+  li {
+    display: block;
+    list-style-type: none;
+    padding: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: right;
+  }
+  li:hover {
+    color: $lightblue;
+    background-color: $pastelblue;
+    -webkit-transition: background-color .1s ease-in-out;
+    transition:         background-color .1s ease-in-out;
+  }
+}
+
+.right-sidebar {
+  h2 {
+    font-size: 1.7em;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+
+.sticky-footer {
+  background: $white;
+  bottom: 0;
+  max-height: 100px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+
+  p {
+    color: $darkgrey;
+    font-size: 0.8em;
+    // padding-top: 0.5em;
+  }
+}
+
+.div-border-top {
+  border-top: 2px solid $grey;
+  margin: auto;
+  margin-bottom: 5px;
+  // padding-bottom: 0.5em;
+  width: 70%;
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.right-img {
+  float: right;
+}
+
+.pushDown {
+  padding-top: 50px;
+}
+// ==================================================
+// TYPOGRAPHY =======================================
+.logo-text {
+  font-size: 2em;
+}
+
+.large-nav {
+  li a {
+    font-size: 1.5em;
+  }
+}
+
+.nav-menu {
+  li a {
+    font-size: 1.5em;
+  }
+}
+
+// =============
+// P A G E S ===
+// ==================================================
+// START PAGE =======================================
+.front-comic-wrapper {
+  .row {
+    margin-top: 15px;
+    width: $rowwidth;
+  }
+  span {
+    color: $darkgrey;
+    font-style: italic;
+  }
+}
+
+.start-image-container {
+  margin: auto;
+  width: $startingwidth;
+  img {
+    -webkit-box-shadow: 0px 9px 22px -6px $black;
+    -moz-box-shadow: 0px 9px 22px -6px $black;
+    box-shadow: 0px 9px 22px -6px $black;
+
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+    width: 100%;
+  }
+}
+
+
+// ==================================================
+// ABOUT PAGE =======================================
+.about {
+  max-width: 70%;
+  margin-top: -1em;
+}
+
+// ==================================================
+// ARCHIVE PAGE =====================================
+.archive {
+  img {
+    margin: 1em;
+  }
+}
+
+// ==================================================
+// COMIC ARCHIVE PAGE ===============================
+
+
+// ==================================================
+// SINGLE COMIC PAGE ================================
+.comic-info {
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 0.5em;
+}
+
+// ==================================================
+// SEARCH RESULTS PAGE ==============================
+.search-results-headline {
+  h1 {
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+}

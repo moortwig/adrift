@@ -1,0 +1,31 @@
+@import "variables";
+
+// Foundation and WordPress override
+body {
+  background-color: $mist; // $paleblue;
+}
+
+.row {
+  max-width: 90%;
+}
+
+.label {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+.searchform {
+  padding-bottom: 1em;
+}
+
+.move-right .exit-off-canvas {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.left-off-canvas-menu {
+  background: $mist;
+}
+
+

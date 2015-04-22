@@ -1,0 +1,33 @@
+$debugging: false;
+
+
+// COLOURS ====================================
+
+// BASIC
+$white      : rgb(255, 255, 255);
+$grey       : rgb(221 ,221, 221);
+$mist       : rgb(245, 245, 245);
+$black      : rgb(0, 0, 0);
+
+// YELLOW
+$beige      : rgb(255, 253, 249);
+
+
+// BLUE
+$darkblue   : rgb(0, 17, 102);
+$lightblue	: rgb(227, 241, 255);
+$pastelblue : rgb(173, 200, 255);
+$paleblue   : rgb(249, 251, 255);
+
+
+// COLOUR MIXES etc
+$darkgrey   : darken($grey, 20%);
+
+
+// MEISURES =====================================
+
+// Custom row
+$rowwidth       : 900px;
+
+// Start image
+$startingwidth  : 700px;

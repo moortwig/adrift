@@ -1,0 +1,17 @@
+
+@import "wordpress";
+@import "override";	// Foundation override
+@import "main";
+
+
+@media all and (min-width: 1001px) {
+	@import "large";
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+	@import "medium";
+}
+
+@media all and (max-width: 699px) /* and (min-width: 520px) */  {
+	@import "small";
+}
